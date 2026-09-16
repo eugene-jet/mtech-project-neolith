@@ -1,0 +1,23 @@
+name: CI
+
+# Basic CI skeleton. The project has no stack yet, so this workflow only checks
+# out the code and runs a placeholder step. Replace the placeholder with real
+# install / lint / test / build steps once the technology stack is chosen.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Placeholder
+        run: |
+          echo "CI is wired up. No build or test steps yet."
+          echo "TODO: add install, lint, test and build steps once the stack is chosen."
