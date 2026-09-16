@@ -12,3 +12,7 @@ only project scaffolding while the direction is settled.
 
 Once a stack is chosen, this section will describe how to install dependencies,
 run the project locally, and run its tests.
+
+## License
+
+Released under the [MIT License](LICENSE).
